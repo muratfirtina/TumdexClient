@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Tumdex Logo](assets//icons/TUMdex.png)
+![Tumdex Logo](docs/screenshots/tumdex.avif)
 
 **Modern, Scalable E-Commerce Platform**
 
@@ -33,7 +33,7 @@
 
 ---
 
-![TumdexHomePage](docs/screenshots/tumdex.avif)
+![TumdexHomePage](docs/screenshots/tumdexhome.avif)
 
 ## ✨ Features
 
