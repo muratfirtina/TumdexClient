@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ErpaKabloClient": {
+    "TumdexClient": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/erpa-kablo-client",
+            "outputPath": "dist/tumdex-client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -92,11 +92,11 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ErpaKabloClient:build:production",
+              "buildTarget": "TumdexClient:build:production",
               "ssl": true
             },
             "development": {
-              "buildTarget": "ErpaKabloClient:build:development",
+              "buildTarget": "TumdexClient:build:development",
               "ssl": false
             }
           },
@@ -105,7 +105,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ErpaKabloClient:build"
+            "buildTarget": "TumdexClient:build"
           }
         },
         "test": {
